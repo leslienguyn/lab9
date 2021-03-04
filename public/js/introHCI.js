@@ -14,9 +14,8 @@ function initializePage() {
 function onServerResponse(data){
     var labElementId = getLabElementId(data.id);
     var labElement = $(labElementId);
-    labElement.css({'background': 'yellow'});
+    labElement.css({"background": "yellow"});
 }
-
 
 // Function to format the CSS selector
 function getLabElementId(id){
